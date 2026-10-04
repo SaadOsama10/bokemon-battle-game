@@ -1,289 +1,262 @@
 Initialization done.
-Player 1 starts with Vivillon
-Player 2 starts with Raticate
+Player 1 starts with Lucario
+Player 2 starts with Zapdos
 
 ===== GAME START =====
 
 ================ NEW ROUND ================
-Player 1 active: Vivillon HP=80/80
-Player 2 active: Raticate HP=55/55
+Player 1 active: Lucario HP=70/70
+Player 2 active: Zapdos HP=90/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - Pluck  2 - DragonAscent  
-3 - SplishySplash  4 - FleurCannon  
+1 - HeatWave  2 - ArmThrust  
+3 - CrushClaw  4 - Twineedle  
 Please select a move (1-4): 1
 
 Player 2 choose a move:
-1 - MudShot  2 - Eternabeam  
-3 - GravApple  4 - ChargeBeam  
+1 - WakeUpSlap  2 - WaterShuriken  
+3 - TerrainPulse  4 - Snarl  
 Please select a move (1-4): 3
 
 --- Applying damage ---
-Raticate used GravApple! Damage: 32
-Vivillon used Pluck! Damage: 78
-Raticate fainted!
+Zapdos used TerrainPulse! Damage: 44
+Lucario used HeatWave! Damage: 121
+Zapdos fainted!
 
 End of round:
-Player 1 active: Vivillon HP=48/80
-Player 2 fainted: Raticate HP=0/55
+Player 1 active: Lucario HP=26/70
+Player 2 fainted: Zapdos HP=0/90
 
 ================ NEW ROUND ================
-Player 1 active: Vivillon HP=48/80
-Player 2 active: Vivillon HP=80/80
+Player 1 active: Lucario HP=26/70
+Player 2 active: Dewgong HP=90/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 2
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a Pokemon to switch:
-1 - Vivillon (active)  2 - Flareon  
-3 - WalkingWake  4 - Azelf  
-5 - Lairon  6 - Klefki  
+1 - Lucario (active)  2 - Spewpa  
+3 - Riolu  4 - Electivire  
+5 - Nidorina  6 - Flapple  
 Please select a Pokemon (1-6): 2
 
 Player 2 choose a move:
-1 - Pluck  2 - DragonAscent  
-3 - SplishySplash  4 - FleurCannon  
+1 - Acid  2 - HyperVoice  
+3 - Chatter  4 - Headbutt  
 Please select a move (1-4): 4
 
 --- Applying damage ---
-Vivillon used FleurCannon! Damage: 53
+Dewgong used Headbutt! Damage: 81
+Spewpa fainted!
 
 End of round:
-Player 1 active: Flareon HP=12/65
-Player 2 active: Vivillon HP=80/80
+Player 1 fainted: Spewpa HP=0/45
+Player 2 active: Dewgong HP=90/90
 
 ================ NEW ROUND ================
-Player 1 active: Flareon HP=12/65
-Player 2 active: Vivillon HP=80/80
+Player 1 active: Riolu HP=40/40
+Player 2 active: Dewgong HP=90/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - TropKick  2 - DazzlingGleam  
-3 - FloatyFall  4 - TriAttack  
+1 - MaxSteelspike  2 - Snarl  
+3 - DynamicPunch  4 - AquaJet  
 Please select a move (1-4): 1
 
 Player 2 choose a move:
-1 - Pluck  2 - DragonAscent  
-3 - SplishySplash  4 - FleurCannon  
+1 - Acid  2 - HyperVoice  
+3 - Chatter  4 - Headbutt  
 Please select a move (1-4): 3
 
 --- Applying damage ---
-Vivillon used SplishySplash! Damage: 147
-Flareon fainted!
+Dewgong used Chatter! Damage: 227
+Riolu fainted!
 
 End of round:
-Player 1 fainted: Flareon HP=0/65
-Player 2 active: Vivillon HP=80/80
+Player 1 fainted: Riolu HP=0/40
+Player 2 active: Dewgong HP=90/90
 
 ================ NEW ROUND ================
-Player 1 active: WalkingWake HP=99/99
-Player 2 active: Vivillon HP=80/80
+Player 1 active: Electivire HP=75/75
+Player 2 active: Dewgong HP=90/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
+1 - FusionBolt  2 - DoubleHit  
+3 - XScissor  4 - FrostBreath  
 Please select a move (1-4): 2
 
 Player 2 choose a move:
-1 - Pluck  2 - DragonAscent  
-3 - SplishySplash  4 - FleurCannon  
+1 - Acid  2 - HyperVoice  
+3 - Chatter  4 - Headbutt  
 Please select a move (1-4): 4
 
 --- Applying damage ---
-WalkingWake used HyperFang! Damage: 132
-Vivillon fainted!
+Electivire used DoubleHit! Damage: 53
+Dewgong used Headbutt! Damage: 73
 
 End of round:
-Player 1 active: WalkingWake HP=99/99
-Player 2 fainted: Vivillon HP=0/80
+Player 1 active: Electivire HP=2/75
+Player 2 active: Dewgong HP=37/90
 
 ================ NEW ROUND ================
-Player 1 active: WalkingWake HP=99/99
-Player 2 active: Phanpy HP=90/90
+Player 1 active: Electivire HP=2/75
+Player 2 active: Dewgong HP=37/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
+1 - FusionBolt  2 - DoubleHit  
+3 - XScissor  4 - FrostBreath  
 Please select a move (1-4): 3
 
 Player 2 choose a move:
-1 - FellStinger  2 - BreakingSwipe  
-3 - Poltergeist  4 - UTurn  
+1 - Acid  2 - HyperVoice  
+3 - Chatter  4 - Headbutt  
 Please select a move (1-4): 1
 
 --- Applying damage ---
-WalkingWake used ZippyZap! Damage: 0
-Phanpy used FellStinger! Damage: 32
+Electivire used XScissor! Damage: 123
+Dewgong fainted!
 
 End of round:
-Player 1 active: WalkingWake HP=67/99
-Player 2 active: Phanpy HP=90/90
+Player 1 active: Electivire HP=2/75
+Player 2 fainted: Dewgong HP=0/90
 
 ================ NEW ROUND ================
-Player 1 active: WalkingWake HP=67/99
-Player 2 active: Phanpy HP=90/90
+Player 1 active: Electivire HP=2/75
+Player 2 active: Stunky HP=63/63
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
+1 - FusionBolt  2 - DoubleHit  
+3 - XScissor  4 - FrostBreath  
 Please select a move (1-4): 4
 
 Player 2 choose a move:
-1 - FellStinger  2 - BreakingSwipe  
-3 - Poltergeist  4 - UTurn  
+1 - SparklingAria  2 - DracoMeteor  
+3 - SeedFlare  4 - HeadSmash  
 Please select a move (1-4): 2
 
 --- Applying damage ---
-WalkingWake used GrassPledge! Damage: 500
-Phanpy fainted!
+Electivire used FrostBreath! Damage: 139
+Stunky fainted!
 
 End of round:
-Player 1 active: WalkingWake HP=67/99
-Player 2 fainted: Phanpy HP=0/90
+Player 1 active: Electivire HP=2/75
+Player 2 fainted: Stunky HP=0/63
 
 ================ NEW ROUND ================
-Player 1 active: WalkingWake HP=67/99
-Player 2 active: Barbaracle HP=72/72
+Player 1 active: Electivire HP=2/75
+Player 2 active: Malamar HP=86/86
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
+1 - FusionBolt  2 - DoubleHit  
+3 - XScissor  4 - FrostBreath  
 Please select a move (1-4): 1
 
 Player 2 choose a move:
-1 - TechnoBlast  2 - EchoedVoice  
-3 - MaxQuake  4 - Thrash  
+1 - Bite  2 - SkyUppercut  
+3 - WaterGun  4 - WaterPledge  
 Please select a move (1-4): 3
 
 --- Applying damage ---
-WalkingWake used DrainingKiss! Damage: 72
-Barbaracle fainted!
+Electivire used FusionBolt! Damage: 209
+Malamar fainted!
 
 End of round:
-Player 1 active: WalkingWake HP=67/99
-Player 2 fainted: Barbaracle HP=0/72
+Player 1 active: Electivire HP=2/75
+Player 2 fainted: Malamar HP=0/86
 
 ================ NEW ROUND ================
-Player 1 active: WalkingWake HP=67/99
-Player 2 active: Kabutops HP=60/60
+Player 1 active: Electivire HP=2/75
+Player 2 active: Wingull HP=40/40
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
+1 - FusionBolt  2 - DoubleHit  
+3 - XScissor  4 - FrostBreath  
 Please select a move (1-4): 2
 
 Player 2 choose a move:
-1 - BurnUp  2 - MaxSteelspike  
-3 - MoongeistBeam  4 - MaxOoze  
+1 - Pluck  2 - MaxOoze  
+3 - Aeroblast  4 - GenesisSupernova  
 Please select a move (1-4): 4
 
 --- Applying damage ---
-WalkingWake used HyperFang! Damage: 31
-Kabutops used MaxOoze! Damage: 12
+Electivire used DoubleHit! Damage: 143
+Wingull fainted!
 
 End of round:
-Player 1 active: WalkingWake HP=55/99
-Player 2 active: Kabutops HP=29/60
+Player 1 active: Electivire HP=2/75
+Player 2 fainted: Wingull HP=0/40
 
 ================ NEW ROUND ================
-Player 1 active: WalkingWake HP=55/99
-Player 2 active: Kabutops HP=29/60
+Player 1 active: Electivire HP=2/75
+Player 2 active: Castform HP=70/70
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
+1 - FusionBolt  2 - DoubleHit  
+3 - XScissor  4 - FrostBreath  
 Please select a move (1-4): 3
 
 Player 2 choose a move:
-1 - BurnUp  2 - MaxSteelspike  
-3 - MoongeistBeam  4 - MaxOoze  
+1 - DrainingKiss  2 - ShadowPunch  
+3 - BuzzyBuzz  4 - MudSlap  
 Please select a move (1-4): 1
 
 --- Applying damage ---
-WalkingWake used ZippyZap! Damage: 126
-Kabutops fainted!
+Electivire used XScissor! Damage: 140
+Castform fainted!
 
 End of round:
-Player 1 active: WalkingWake HP=55/99
-Player 2 fainted: Kabutops HP=0/60
-
-================ NEW ROUND ================
-Player 1 active: WalkingWake HP=55/99
-Player 2 active: Staravia HP=55/55
-
-Player 1: 1-Attack  2-Change Pokemon
-> 1
-
-Player 1: 1-Attack  2-Change Pokemon
-> 1
-
-Player 1 choose a move:
-1 - DrainingKiss  2 - HyperFang  
-3 - ZippyZap  4 - GrassPledge  
-Please select a move (1-4): 4
-
-Player 2 choose a move:
-1 - MindBlown  2 - StokedSparksurfer  
-3 - BrickBreak  4 - IcePunch  
-Please select a move (1-4): 2
-
---- Applying damage ---
-WalkingWake used GrassPledge! Damage: 125
-Staravia fainted!
-
-End of round:
-Player 1 active: WalkingWake HP=55/99
-Player 2 fainted: Staravia HP=0/55
+Player 1 active: Electivire HP=2/75
+Player 2 fainted: Castform HP=0/70
 
 ===== GAME OVER =====
 Winner: Player 1

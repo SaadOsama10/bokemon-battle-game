@@ -202,7 +202,7 @@ void playRound(Player *p1, Player *p2){
     }
     /* ---------- Player 2 main choice ---------- */
     while (1) {
-        printf("\nPlayer 1: 1-Attack  2-Change Pokemon\n> ");
+        printf("\nPlayer 2: 1-Attack  2-Change Pokemon\n> ");
         
         if (scanf("%d", &p2Choice) != 1) {//If user types abc, it returns 0, not 1 → invalid input.s
             printf("Invalid input.\n");

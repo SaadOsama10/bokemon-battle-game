@@ -84,90 +84,90 @@ It compiles without warnings under `-Wall -Wextra` with Apple clang 21.
 
 ## Sample Output
 
-An excerpt from a scripted 10-round battle (player inputs follow each `>` and `:` prompt). The full transcript is in [`docs/sample-battle.txt`](docs/sample-battle.txt).
+An excerpt from a scripted 9-round battle (player inputs follow each `>` and `:` prompt). The full transcript is in [`docs/sample-battle.txt`](docs/sample-battle.txt).
 
 ```text
 Initialization done.
-Player 1 starts with Vivillon
-Player 2 starts with Raticate
+Player 1 starts with Lucario
+Player 2 starts with Zapdos
 
 ===== GAME START =====
 
 ================ NEW ROUND ================
-Player 1 active: Vivillon HP=80/80
-Player 2 active: Raticate HP=55/55
+Player 1 active: Lucario HP=70/70
+Player 2 active: Zapdos HP=90/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 1
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a move:
-1 - Pluck  2 - DragonAscent  
-3 - SplishySplash  4 - FleurCannon  
+1 - HeatWave  2 - ArmThrust  
+3 - CrushClaw  4 - Twineedle  
 Please select a move (1-4): 1
 
 Player 2 choose a move:
-1 - MudShot  2 - Eternabeam  
-3 - GravApple  4 - ChargeBeam  
+1 - WakeUpSlap  2 - WaterShuriken  
+3 - TerrainPulse  4 - Snarl  
 Please select a move (1-4): 3
 
 --- Applying damage ---
-Raticate used GravApple! Damage: 32
-Vivillon used Pluck! Damage: 78
-Raticate fainted!
+Zapdos used TerrainPulse! Damage: 44
+Lucario used HeatWave! Damage: 121
+Zapdos fainted!
 
 End of round:
-Player 1 active: Vivillon HP=48/80
-Player 2 fainted: Raticate HP=0/55
+Player 1 active: Lucario HP=26/70
+Player 2 fainted: Zapdos HP=0/90
 
 ================ NEW ROUND ================
-Player 1 active: Vivillon HP=48/80
-Player 2 active: Vivillon HP=80/80
+Player 1 active: Lucario HP=26/70
+Player 2 active: Dewgong HP=90/90
 
 Player 1: 1-Attack  2-Change Pokemon
 > 2
 
-Player 1: 1-Attack  2-Change Pokemon
+Player 2: 1-Attack  2-Change Pokemon
 > 1
 
 Player 1 choose a Pokemon to switch:
-1 - Vivillon (active)  2 - Flareon  
-3 - WalkingWake  4 - Azelf  
-5 - Lairon  6 - Klefki  
+1 - Lucario (active)  2 - Spewpa  
+3 - Riolu  4 - Electivire  
+5 - Nidorina  6 - Flapple  
 Please select a Pokemon (1-6): 2
 
 Player 2 choose a move:
-1 - Pluck  2 - DragonAscent  
-3 - SplishySplash  4 - FleurCannon  
+1 - Acid  2 - HyperVoice  
+3 - Chatter  4 - Headbutt  
 Please select a move (1-4): 4
 
 --- Applying damage ---
-Vivillon used FleurCannon! Damage: 53
+Dewgong used Headbutt! Damage: 81
+Spewpa fainted!
 
 End of round:
-Player 1 active: Flareon HP=12/65
-Player 2 active: Vivillon HP=80/80
+Player 1 fainted: Spewpa HP=0/45
+Player 2 active: Dewgong HP=90/90
 
-[... 7 more rounds ...]
+[... 6 more rounds ...]
 
 --- Applying damage ---
-WalkingWake used GrassPledge! Damage: 125
-Staravia fainted!
+Electivire used XScissor! Damage: 140
+Castform fainted!
 
 End of round:
-Player 1 active: WalkingWake HP=55/99
-Player 2 fainted: Staravia HP=0/55
+Player 1 active: Electivire HP=2/75
+Player 2 fainted: Castform HP=0/70
 
 ===== GAME OVER =====
 Winner: Player 1
 ```
 
-In round 1, Raticate is faster and attacks first. In round 2, Player 1 switches to Flareon instead of attacking, and the incoming Flareon takes the hit.
+In round 1, Zapdos is faster and attacks first, but Lucario's Heat Wave knocks it out. In round 2, Player 1 switches to Spewpa instead of attacking, and the incoming Spewpa takes Dewgong's Headbutt and faints.
 
 ## Known Limitations
 
-- **Second player's prompt is mislabelled.** Both "Attack / Change" prompts say "Player 1"; the second one is actually Player 2's (visible in the sample above).
-- **Teams can repeat creatures.** Teams are drawn at random without a uniqueness check, so a creature can appear twice in one team or on both teams. Moves are assigned per creature at startup, so a repeated creature also has the same four moves (both players had a Vivillon in the sample).
+- **Teams can repeat creatures.** Teams are drawn at random without a uniqueness check, so a creature can appear twice in one team or on both teams. Moves are assigned per creature at startup, so a repeated creature also has the same four moves.
 - **No team selection.** Teams are always random; players can't choose their creatures.
