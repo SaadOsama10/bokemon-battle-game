@@ -1,0 +1,4 @@
+bokemon
+*.o
+*.exe
+.DS_Store
